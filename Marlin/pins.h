@@ -606,7 +606,7 @@
   #endif
 
   #if MOTHERBOARD == 33 || MOTHERBOARD == 67
-    #define HEATER_1_PIN       -1
+    #define HEATER_1_PIN       7 
   #else
     #define HEATER_1_PIN       9    // EXTRUDER 2 (FAN On Sprinter)
   #endif
